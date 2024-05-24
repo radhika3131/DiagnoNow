@@ -56,8 +56,57 @@ Welcome to our  medical web application! Our goal is simple yet profound: to pro
 
 ## Installation
 To set up the project locally, follow these steps:
+
+### 1. Clone the Repository:
 ```
-git clone 
-cd medical-web-app
+git clone https://github.com/radhika3131/DiagnoNow
+cd DiagnoNow
 
 ```
+### 2. Create a Virtual Environment:
+```
+python -m venv virtualEnvName
+.\virtualEnvName\Scripts\activate
+
+```
+### 3. Install the Required Packages:
+```
+pip install -r requirements.txt
+```
+### 4. Run the Application:
+```
+flask run
+```
+### 5. Access the Web Application:
+Open your web browser and navigate to  'http://127.0.0.1:5000'
+
+## Usage
+ * Home Page: From the home page, users can navigate to the specific disease detection sections.
+ * Upload Image or Enter Data: Users can upload the relevant medical images (e.g., X-rays, MRIs) or enter health metrics.
+ * Get Results: The application processes the input and provides diagnostic results, indicating the likelihood of the condition.
+
+#### Homepage
+![Screenshot (118)](https://github.com/radhika3131/DiagnoNow/assets/102825662/8eb24f2d-2e8c-4155-b2ae-f97d9a682e0e)
+
+#### One of the detection result
+![Screenshot (119)](https://github.com/radhika3131/DiagnoNow/assets/102825662/e1f9b464-8d55-410e-970a-d7137637629a)
+
+## Acknowledgments
+This project was made possible through the collaboration of dedicated team members and the guidance of knowledgeable mentors.
+### Team members:
+ * Radhika Ramsen
+ * Purvakshi
+ * Vivek Rajput
+### Advisors
+ * Prakiriti Raghuvanshi
+ * Anushree Negi
+We extend our gratitude to our advisors for their invaluable insights and support.
+
+## Future Scope
+ * Enhance the user interface for a better user experience.
+ * Expand the application to support additional diseases.
+ * Enhanced data security and sharing
+ * Implemented as a mobile application
+ * Improve model accuracy and reduce false positives/negatives.
+   
+
