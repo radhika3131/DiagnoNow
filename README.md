@@ -100,6 +100,7 @@ This project was made possible through the collaboration of dedicated team membe
 ### Advisors
  * Prakiriti Raghuvanshi
  * Anushree Negi
+   
 We extend our gratitude to our advisors for their invaluable insights and support.
 
 ## Future Scope
