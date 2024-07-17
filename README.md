@@ -1,7 +1,7 @@
 # Medical Web Application for Disease Detection
 
 ## Overview 
-Welcome to our  medical web application! Our goal is simple yet profound: to provide healthcare professionals with a powerful tool for diagnosing critical diseases quickly and accurately. Using cutting-edge machine learning technology, our application assists doctors in detecting diseases like brain tumors, Alzheimer's, and more, at their earliest stages. By catching these diseases early, doctors can intervene sooner, potentially saving lives and improving patient outcomes. Our mission is to revolutionize healthcare by harnessing the power of technology to empower medical professionals and enhance patient care     
+Welcome to our  medical web application! Our goal is simple yet profound: to provide healthcare professionals with a powerful tool for diagnosing critical diseases quickly and accurately. Using cutting-edge machine learning technology, our application assists doctors in detecting diseases like brain tumors, Alzheimer's, and more, at their earliest stages. By catching these diseases early, doctors can intervene sooner, potentially saving lives and improving patient outcomes. Our mission is to revolutionize healthcare by harnessing the power of technology to empower medical professionals and enhance patient care      
 
 ## Motivation
 ### 1. Importance of Time in Healthcare:
