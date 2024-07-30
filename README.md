@@ -1,18 +1,18 @@
 # Medical Web Application for Disease Detection
 
 ## Overview 
-Welcome to our  medical web application! Our goal is simple yet profound: to provide healthcare professionals with a powerful tool for diagnosing critical diseases quickly and accurately. Using cutting-edge machine learning technology, our application assists doctors in detecting diseases like brain tumors, Alzheimer's, and more, at their earliest stages. By catching these diseases early, doctors can intervene sooner, potentially saving lives and improvingg patient outcomes. Our mission is to revolutionize healthcare by harnessing the power of technology to empower medical professionals and enhance patient care      
+Welcome to our  medical web application! Our goal is simple yet profound: to provide healthcare professionals with a powerful tool for diagnosing critical diseases quickly and accurately. Using cutting-edge machine learning technology, our application assists doctors in detecting diseases like brain tumors, Alzheimer's, and more, at their earliest stages. By catching these diseases early, doctors can intervene sooner, potentially saving lives and improving patient outcomes. Our mission is to revolutionize healthcare by harnessing the power of technology to empower medical professionals and enhance patient care      
 
 ## Motivation
 ### 1. Importance of Time in Healthcare:
  * Timely diagnosis and treatment are paramount in healthcare, where every minute can impact patient outcomes.
  * Delays in diagnosis may result in missed opportunities for intervention, leading to adverse health consequences for patients.
 ### 2. Challenges Faced by Radiologists:
- * Radiologists often have to interpret numerous imaging studies each day, with limited time available for each case.
+ * Radiologists often have to interpret numerous imaging studies daily, with limited time available for each case.
  * High volume of reports to review can lead to challenges in providing timely results, potentially delaying patient care.
 ### 3. Impact on Patients:
  * Prolonged waiting times for diagnostic tests and results contribute to patient anxiety and uncertainty about their health.
- * Faster turnaround times for diagnostic evaluations can alleviate patient anxiety and improve the overall patient experience.
+ * Faster turnaround times for diagnostic evaluations can alleviate patient anxiety and improve patient experience.
 ### 4. Project Objectives:
  * Our project aims to streamline the diagnostic process, enabling healthcare professionals to deliver prompt and effective treatment.
  * By automating certain aspects of the diagnostic workflow, we aim to expedite the delivery of critical findings, particularly in radiology.
@@ -88,7 +88,7 @@ Open your web browser and navigate to  'http://127.0.0.1:5000'
 #### Homepage
 ![Screenshot (118)](https://github.com/radhika3131/DiagnoNow/assets/102825662/8eb24f2d-2e8c-4155-b2ae-f97d9a682e0e)
 
-#### One of the detection result
+#### One of the detection results
 ![Screenshot (119)](https://github.com/radhika3131/DiagnoNow/assets/102825662/e1f9b464-8d55-410e-970a-d7137637629a)
 
 ## Acknowledgments
@@ -98,7 +98,7 @@ This project was made possible through the collaboration of dedicated team membe
  * Purvakshi
  * Vivek Rajput
 ### Advisors
- * Prakiriti Raghuvanshi
+ * Prakriti Raghuvanshi
  * Anushree Negi
    
 We extend our gratitude to our advisors for their invaluable insights and support.
