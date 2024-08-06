@@ -8,8 +8,8 @@ Welcome to our  medical web application! Our goal is simple yet profound: to pro
  * Timely diagnosis and treatment are paramount in healthcare, where every minute can impact patient outcomes.
  * Delays in diagnosis may result in missed opportunities for intervention, leading to adverse health consequences for patients.
 ### 2. Challenges Faced by Radiologists:
- * Radiologists often have to interpret numerous imaging studies daily, with limited time available for each case.
- * High volume of reports to review can lead to challenges in providing timely results, potentially delaying patient care.
+ * Radiologists often have to interpret numerous imaging studies daily, with limited time for each case. 
+ * A high volume of reports to review can lead to challenges in providing timely results, potentially delaying patient care.
 ### 3. Impact on Patients:
  * Prolonged waiting times for diagnostic tests and results contribute to patient anxiety and uncertainty about their health.
  * Faster turnaround times for diagnostic evaluations can alleviate patient anxiety and improve patient experience.
@@ -17,7 +17,7 @@ Welcome to our  medical web application! Our goal is simple yet profound: to pro
  * Our project aims to streamline the diagnostic process, enabling healthcare professionals to deliver prompt and effective treatment.
  * By automating certain aspects of the diagnostic workflow, we aim to expedite the delivery of critical findings, particularly in radiology.
 ### 5. Empowering Patients:
-  * Rapid and accurate diagnoses empower patients to take proactive steps towards managing their health.
+  * Rapid and accurate diagnoses empower patients to manage their health proactively.
   * Access to timely interventions can lead to better health outcomes and improved quality of life for patients.
 
 ## Technologies Used
