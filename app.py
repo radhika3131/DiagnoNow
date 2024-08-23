@@ -14,13 +14,13 @@ from tensorflow.keras.applications.vgg16 import preprocess_input
 
 
 # Loading Models
-covid_model = load_model('models/covid.h5')
-braintumor_model = load_model('models/braintumor.h5')
-alzheimer_model = load_model('models/alzheimer_model.h5')
-diabetes_model = pickle.load(open('models/diabetes.sav', 'rb'))
-heart_model = pickle.load(open('models/heart_disease.pickle.dat', "rb"))
-pneumonia_model = load_model('models/pneumonia_model.h5')
-breastcancer_model = joblib.load('models/cancer_model.pkl')
+# covid_model = load_model('models/covid.h5')
+# braintumor_model = load_model('models/braintumor.h5')
+# alzheimer_model = load_model('models/alzheimer_model.h5')
+# diabetes_model = pickle.load(open('models/diabetes.sav', 'rb'))
+# heart_model = pickle.load(open('models/heart_disease.pickle.dat', "rb"))
+# pneumonia_model = load_model('models/pneumonia_model.h5')
+# breastcancer_model = joblib.load('models/cancer_model.pkl')
 
 # Configuring Flask
 UPLOAD_FOLDER = 'static/uploads'
@@ -128,6 +128,8 @@ def heartdisease():
 @app.route('/resultc', methods=['POST'])
 def resultc():
     if request.method == 'POST':
+        covid_model = load_model('models/covid.h5')
+
         firstname = request.form['firstname']
         lastname = request.form['lastname']
         email = request.form['email']
@@ -159,6 +161,8 @@ def resultc():
 @app.route('/resultbt', methods=['POST'])
 def resultbt():
     if request.method == 'POST':
+        braintumor_model = load_model('models/braintumor.h5')
+
         firstname = request.form['firstname']
         lastname = request.form['lastname']
         email = request.form['email']
@@ -190,6 +194,8 @@ def resultbt():
 @app.route('/resultd', methods=['POST'])
 def resultd():
     if request.method == 'POST':
+        diabetes_model = pickle.load(open('models/diabetes.sav', 'rb'))
+
         firstname = request.form['firstname']
         lastname = request.form['lastname']
         email = request.form['email']
@@ -212,6 +218,8 @@ def resultd():
 @app.route('/resultbc', methods=['POST'])
 def resultbc():
     if request.method == 'POST':
+        breastcancer_model = joblib.load('models/cancer_model.pkl')
+
         firstname = request.form['firstname']
         lastname = request.form['lastname']
         email = request.form['email']
@@ -232,6 +240,8 @@ def resultbc():
 @app.route('/resulta', methods=['GET', 'POST'])
 def resulta():
     if request.method == 'POST':
+        alzheimer_model = load_model('models/alzheimer_model.h5')
+
         print(request.url)
         firstname = request.form['firstname']
         lastname = request.form['lastname']
@@ -262,6 +272,8 @@ def resulta():
 @app.route('/resultp', methods=['POST'])
 def resultp():
     if request.method == 'POST':
+        pneumonia_model = load_model('models/pneumonia_model.h5')
+
         firstname = request.form['firstname']
         lastname = request.form['lastname']
         email = request.form['email']
@@ -293,6 +305,8 @@ def resultp():
 @app.route('/resulth', methods=['POST'])
 def resulth():
     if request.method == 'POST':
+        heart_model = pickle.load(open('models/heart_disease.pickle.dat', "rb"))
+
         firstname = request.form['firstname']
         lastname = request.form['lastname']
         email = request.form['email']
