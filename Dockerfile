@@ -20,12 +20,12 @@ RUN pip install -r requirements.txt
 # Copy the rest of your application code into the container
 COPY . .
 
-# Expose the port Flask will run on
+# Expose the port Flask will run on (5000 by default)
 EXPOSE 5000
 
-# Set environment variables
+# Set environment variables to make Flask run properly in the Docker container
 ENV FLASK_APP=app.py
 ENV FLASK_RUN_HOST=0.0.0.0
 
 # Command to run your Flask application
-CMD exec flask run --host=0.0.0.0 --port=${PORT:-5000}
+CMD ["flask", "run"]
