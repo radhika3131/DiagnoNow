@@ -4,10 +4,16 @@ FROM python:3.9.13-slim
 # Set the working directory inside the container
 WORKDIR /app
 
+# Install system dependencies required by OpenCV
+RUN apt-get update && apt-get install -y \
+    libgl1-mesa-glx \
+    libglib2.0-0 \
+    && rm -rf /var/lib/apt/lists/*
+
 # Copy the requirements file into the container
 COPY requirements.txt .
 
-# Install the dependencies
+# Install the Python dependencies
 RUN pip install --upgrade pip
 RUN pip install -r requirements.txt
 
