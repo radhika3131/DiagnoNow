@@ -37,7 +37,7 @@ Welcome to our  medical web application! Our goal is simple yet profound: to pro
    * Accuracy: 85%
 * #### Alzheimer's Detection:
    * Model: Custom CNN.
-   * Accuracy: 75%
+   * Accuracy: 75% 
 * #### Pneumonia Detection:
    * Model: Custom CNN.
    * Accuracy: 84.19%
